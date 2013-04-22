@@ -1,0 +1,1 @@
+<?phpclass Position_model extends MY_Model {	protected $_table = 'tb_position';	protected $primary_key = 'position_id';		function sort_data(){		$this->db->order_by('position_name', 'asc');			return $this;	}}?>

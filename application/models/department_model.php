@@ -1,0 +1,1 @@
+<?phpclass Department_model extends MY_Model {	protected $_table = 'tb_department';	protected $primary_key = 'department_id';	function sort_data(){		$this->db->order_by('department_name', 'asc');			return $this;	}}?>

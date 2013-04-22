@@ -1,0 +1,1 @@
+<?phpclass Role_model extends MY_Model {	protected $_table = 'tb_role';	protected $primary_key = 'role_id';}?>
